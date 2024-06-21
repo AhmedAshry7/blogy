@@ -1,0 +1,29 @@
+.post{
+    margin-bottom: 50px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.post:hover{
+    border: 3px solid #446eba;
+    box-shadow: 10px 10px 5px #47aecf;
+    cursor: pointer;
+}
+
+.title{
+    font-size: large;
+    font-weight: 900;
+    color: black;
+}
+
+.body{
+    width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    color:rgb(42, 41, 41)
+}

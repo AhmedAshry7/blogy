@@ -1,0 +1,14 @@
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+.posts{
+    width:60%;
+    align-self: center;
+}
+
+.postContainer{
+    width:60%;
+    align-self: center;   
+}

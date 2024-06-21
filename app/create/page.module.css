@@ -1,0 +1,174 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: large;
+    font-weight: 900;
+    color: black;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    position: relative;
+    width: 90%;
+    align-items: center;
+}
+
+.inputWrap{
+    width:100%;
+    position: relative;
+  }
+  
+.inputBox{
+    width:500px;
+    height: 35px;
+    padding-top: 5px;
+    border: 0.5px solid #9191917a;
+    border-radius: 5px;
+    text-indent: 16px;
+    outline:none;
+}
+  
+.inputWrap label{
+    color: rgb(124, 124, 124);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    padding: 14px;
+    position: absolute;
+    pointer-events: none;
+    transition: 0.3s ease all;
+    top: 0px;
+    left: 5px;
+}
+  
+.inputBox:focus+label,
+.inputBox:valid+label,
+.inputBox:not(:placeholder-shown) + label{
+    font-size: 8px;
+    top:-10px;
+    left: 5px;
+    margin-bottom: 5px;
+}
+
+.inputTextBox{
+    width:500px;
+    height: 100px;
+    padding-top: 5px;
+    border: 0.5px solid #9191917a;
+    border-radius: 5px;
+    text-indent: 16px;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submitButton,.cancelButton,.discardButton,.cancelButton2{
+    width: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.submitButton{
+    background-color: #0079d3;
+    color: #ffffff;
+}
+
+.submitButton:hover{
+    background-color: #0160a9;
+}
+
+.cancelButton,.discardButton{
+    background-color: #a50f03;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.cancelButton:hover,.discardButton:hover{
+    background-color: #7e0b03;
+}
+
+.cancelButton2{
+    background-color: rgb(212, 211, 211);
+    color: black;
+}
+
+.cancelButton2:hover{
+    background-color: rgb(185 183 183);
+}
+
+.Xbutton{
+    position: relative;
+    top: -15px;
+    left: 350px;
+    background-color: white;
+    border: none;
+    font-size: medium;
+    padding: 5px;
+    border-radius: 45px;
+    border: none;
+}
+
+.Xbutton:hover{
+    background-color:rgb(212, 211, 211) ;
+}
+
+.submitButton:hover,.cancelButton:hover,.discardButton:hover,.cancelButton2:hover,.Xbutton:hover{
+    cursor: pointer;
+}
+
+.errorMessage{
+    margin: 0px;
+    padding: 0px;
+    color: red;
+    font-size: 12px;
+}
+
+.modalOverlay{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000; 
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background: white;
+    position: relative;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+    width:400px;
+    color: black;
+    font-family: 'IBM Plex Sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 1001;
+    box-sizing: border-box;
+}
+
+
+.modalButtons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}

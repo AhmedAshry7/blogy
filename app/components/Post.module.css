@@ -1,0 +1,12 @@
+.title{
+    font-size: large;
+    font-weight: 900;
+    color: black;
+}
+
+.body{
+    width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+    color:rgb(42, 41, 41)
+}
