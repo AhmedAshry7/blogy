@@ -1,28 +1,23 @@
-# Lab#1 Web Architecture
+#Blogy
 
-###### The objective of this lab is to provide you with a hands-on understanding of web architecture, focusing on the interaction between front-end (FE) and back-end (BE) systems using APIs. By building upon a pre-existing project structure.
+###### This is a simple blog application.
 
 ### How to Run the Project
 
 
-- install node througth https://nodejs.org/en
+- install node if not already installed througth https://nodejs.org/en and
 to check node is installed correctly run:
 ```sh
 node -v
 ```
-- install dependencies in BE
+- install node modules
 ```sh
 npm install
 ```
-- install nodemon globally
+- to run the application
 ```sh
-npm install -g nodemon 
+npm run dev
 ```
+- then open [http](http://localhost:3000)
 
-- to run server
-```sh
-npm run start
-```
-- to run front end
-install live server vscode extension https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
