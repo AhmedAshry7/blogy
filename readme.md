@@ -10,14 +10,15 @@ to check node is installed correctly run:
 ```sh
 node -v
 ```
-- install node modules
+-clone the repo
+- install node modules by writing this in the terminal
 ```sh
 npm install
 ```
-- to run the application
+- to run the application by writing this in the terminal
 ```sh
 npm run dev
 ```
-- then open [http](http://localhost:3000)
+- then open http://localhost:3000 or other if localhost:3000 is already taken
 
 
