@@ -1,4 +1,4 @@
-#Blogy
+### Blogy
 
 ###### This is a simple blog application.
 
